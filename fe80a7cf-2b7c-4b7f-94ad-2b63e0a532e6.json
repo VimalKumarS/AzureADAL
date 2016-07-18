@@ -1,0 +1,59 @@
+{
+  "appId": "fe80a7cf-2b7c-4b7f-94ad-2b63e0a532e6",
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "LocationSvc",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "https://localhost:44341/",
+  "identifierUris": [
+    "https://localhost:44341/LocationService"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": true,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access LocationSvc on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access LocationSvc",
+      "id": "bd5c9c1e-c87c-49c8-ba42-d50dcf84ee1d",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access LocationSvc on your behalf.",
+      "userConsentDisplayName": "Access LocationSvc",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+    "https://localhost:44341/"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "9d089a22-06c9-4293-9470-f08d60d54aef",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}

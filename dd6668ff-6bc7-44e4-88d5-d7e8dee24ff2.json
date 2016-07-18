@@ -1,0 +1,96 @@
+{
+  "appId": "dd6668ff-6bc7-44e4-88d5-d7e8dee24ff2",
+  "appRoles": [
+    {
+      "id": "60b2075f-9aab-4d5b-a11e-db67757c441c",
+      "displayName": "RoleDisplayName",
+      "description": "Role description",
+      "value": "RoleValue",
+      "allowedMemberTypes": [ "User" ],
+      "isEnabled": true,
+      "origin": "Application"
+    },
+    {
+      "id": "bf02829f-eb39-4650-81dc-10c2bac57eb3",
+      "displayName": "RoleDisplayName2",
+      "description": "Role2 description",
+      "value": "RoleValue2",
+      "allowedMemberTypes": [ "User" ],
+      "isEnabled": true,
+      "origin": "Application"
+    },
+    {
+      "id": "a9631fda-5bf3-428c-85f5-d3314ab0f8ad",
+      "displayName": "RoleDisplayName3",
+      "description": "Role3 description",
+      "value": "RoleValue3",
+      "allowedMemberTypes": [ "Application" ],
+      "isEnabled": true,
+      "origin": "Application"
+    },
+    {
+      "id": "0841e32d-012b-4b25-bd09-162b4d4a07c2",
+      "displayName": "RoleDisplayName4",
+      "description": "Role4 description",
+      "value": "RoleValue4",
+      "allowedMemberTypes": [ "User", "Application" ],
+      "isEnabled": true,
+      "origin": "Application"
+    }
+  ],
+  "availableToOtherTenants": false,
+  "displayName": "WebApiTest",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "https://localhost:44398/",
+  "identifierUris": [
+    "https://vimalkumarsinghalhotmail.onmicrosoft.com/WebApitest"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access WebApiTest on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access WebApiTest",
+      "id": "5fa088e5-4456-4f4d-9476-721fc03ed4f4",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access WebApiTest on your behalf.",
+      "userConsentDisplayName": "Access WebApiTest",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+    "https://localhost:44398/"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "42ec3dc6-136e-4981-b341-65e48c4d986b",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}
